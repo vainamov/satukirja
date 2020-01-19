@@ -27,6 +27,6 @@ export const Jsx = () => ({
 
 export const Emoji = () => ({
   components: { MyButton },
-  template: '<my-button @click="action">😀 😎 👍 💯</my-button>',
+  template: '<my-button @click="action">😀 😎 👍</my-button>',
   methods: { action: action('clicked') },
 });
