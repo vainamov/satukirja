@@ -10,7 +10,7 @@ export default {
     component: MyButton,
   decorators: [withA11y, withKnobs],
 };
-
+              
 export const Text = () => ({
   components: { MyButton },
   template: '<my-button @click="action">Hello Button</my-button>',

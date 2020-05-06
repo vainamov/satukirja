@@ -16,6 +16,7 @@ module.exports = {
         indent: ["error", 4],
         "max-len": "off",
         "no-plusplus": "off",
+        "no-trailing-spaces": ["error", { ignoreComments: true }],
         quotes: ["error", "double", { avoidEscape: true, allowTemplateLiterals: true }],
 
     },
